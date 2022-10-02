@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
 
     // State
     bool isAlive = true;
-    bool isJumping = false;
 
     // Cached component references
     Rigidbody2D myRigidBody;
