@@ -17,7 +17,7 @@ TagManager:
   - Background
   - Enemy
   - Spikes
-  - Exit Sign
+  - Interactable
   - 
   - 
   - 
@@ -59,6 +59,6 @@ TagManager:
   - name: Foreground
     uniqueID: 3227613491
     locked: 0
-  - name: Exit Sign
+  - name: Interactable
     uniqueID: 792011791
     locked: 0
