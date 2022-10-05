@@ -54,7 +54,7 @@ public class GameSession : MonoBehaviour
         livesText.text = playerLives.ToString();
     }    
     
-    private void ResetGameSession()
+    public void ResetGameSession()
     {
         SceneManager.LoadScene(0);
         Destroy(gameObject);
@@ -64,5 +64,20 @@ public class GameSession : MonoBehaviour
     {
         scores += score;
         scoresText.text = scores.ToString();
+    }
+
+    public int Scores()
+    {
+        return scores;
+    }    
+    
+    public int Lives()
+    {
+        return playerLives;
+    }    
+    
+    public void DestroyHUD()
+    {
+        Destroy(gameObject);
     }
 }

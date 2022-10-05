@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class Player : MonoBehaviour
 {   
@@ -98,8 +99,13 @@ public class Player : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Die");
             GetComponent<Rigidbody2D>().velocity = deathKick;
-            FindObjectOfType<GameSession>().ProcessPlayerDeath();
+            delayReset();
         }
     }
 
+    private async Task delayReset()
+    {
+        await Task.Delay(500);
+        FindObjectOfType<GameSession>().ProcessPlayerDeath();
+    }
 }

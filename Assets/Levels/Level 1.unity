@@ -617,7 +617,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.46761894, y: 0.11081791}
+  m_Size: {x: 0.46, y: 0.123}
   m_EdgeRadius: 0
 --- !u!1 &1045510193
 GameObject:
@@ -4308,8 +4308,8 @@ Tilemap:
   - first: {x: -14, y: 3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8151,9 +8151,9 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 4f8daa01cf6cd114cb6dd6ff06107a04, type: 2}
   - m_RefCount: 50
     m_Data: {fileID: 11400000, guid: b4d49d5feda38214cbeff358e2f8a9e1, type: 2}
-  - m_RefCount: 50
+  - m_RefCount: 49
     m_Data: {fileID: 11400000, guid: cd0f8a72db4323d499bd364073ce15d5, type: 2}
-  - m_RefCount: 45
+  - m_RefCount: 46
     m_Data: {fileID: 11400000, guid: 739028184c5454f45a85223eb1d3c4ed, type: 2}
   - m_RefCount: 50
     m_Data: {fileID: 11400000, guid: 5047f7b09fc3d5f42827b49b2f7d4921, type: 2}
@@ -8179,14 +8179,16 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 949b33605d221184fb78bcc44dcc4c15, type: 2}
   - m_RefCount: 36
     m_Data: {fileID: 11400000, guid: 025eb95a0b6d7f74e8afe92d91be1199, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 50
     m_Data: {fileID: 1918154281, guid: e9b9ee57ac5aa29449310675387b7d9c, type: 3}
   - m_RefCount: 50
     m_Data: {fileID: 1305632840, guid: e9b9ee57ac5aa29449310675387b7d9c, type: 3}
-  - m_RefCount: 50
+  - m_RefCount: 49
     m_Data: {fileID: -230150583, guid: e9b9ee57ac5aa29449310675387b7d9c, type: 3}
-  - m_RefCount: 45
+  - m_RefCount: 46
     m_Data: {fileID: 884337273, guid: e9b9ee57ac5aa29449310675387b7d9c, type: 3}
   - m_RefCount: 50
     m_Data: {fileID: -1118907633, guid: e9b9ee57ac5aa29449310675387b7d9c, type: 3}
@@ -8212,6 +8214,8 @@ Tilemap:
     m_Data: {fileID: 979463484, guid: e9b9ee57ac5aa29449310675387b7d9c, type: 3}
   - m_RefCount: 36
     m_Data: {fileID: 163424178, guid: e9b9ee57ac5aa29449310675387b7d9c, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 702
     m_Data:
@@ -15398,6 +15402,10 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 880264080}
+    - target: {fileID: 8029972119230215511, guid: d50c98b20b6d7504e94ffba006b1a6e7, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8029972119512263684, guid: d50c98b20b6d7504e94ffba006b1a6e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.739998
