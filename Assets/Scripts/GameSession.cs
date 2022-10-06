@@ -52,11 +52,13 @@ public class GameSession : MonoBehaviour
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
         livesText.text = playerLives.ToString();
+        Time.timeScale = 1f;
     }    
     
     public void ResetGameSession()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
         Destroy(gameObject);
     }
 
