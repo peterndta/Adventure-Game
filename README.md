@@ -16,4 +16,4 @@ A 2D adventure game, in the genre of Platformer games with Pixel Art style graph
 
 </br>
 #### Reference: 
-*Udemy Course: Complete C# Unity Game Developer 2D", [Course Link Here](https://www.udemy.com/course/unitycourse/).*
+*Udemy Course: "Complete C# Unity Game Developer 2D", [Course Link Here](https://www.udemy.com/course/unitycourse/).*
