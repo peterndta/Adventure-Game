@@ -80,6 +80,7 @@ public class GameSession : MonoBehaviour
     
     public void DestroyHUD()
     {
-        Destroy(gameObject);
+        livesText.text = "";
+        scoresText.text = "";
     }
 }
