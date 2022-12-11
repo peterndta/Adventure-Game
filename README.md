@@ -15,4 +15,4 @@ A 2D adventure game, in the genre of Platformer games with Pixel Art style graph
 -	Coin animation
 
 #### Reference: 
-*Udemy Course: "Complete C# Unity Game Developer 2D", [Course Link Here](https://www.udemy.com/course/unitycourse/).*
+*Udemy Course: "React Native - The Practical Guide [2023]", [Course Link Here](https://www.udemy.com/course/unitycourse/).*
