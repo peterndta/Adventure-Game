@@ -1,6 +1,8 @@
 # ADVENTURE GAME
 ### Game description:
-A 2D adventure game, in the genre of Platformer games with Pixel Art style graphics.
+A 2D adventure game, in the genre of Platformer games with Pixel Art style graphics. 
+### Live Demo
+ 👨‍💻 [Live Demo Here](https://youtu.be/pbiol7WpzTs)
 ### How to play: 
 -	Collect all the gold coins on the map and go to the Exit sign to complete the round.
 -	During the collection process, there will be obstacles.
@@ -14,5 +16,21 @@ A 2D adventure game, in the genre of Platformer games with Pixel Art style graph
 -	Die Animation when get hit by obstacle
 -	Coin animation
 
-#### Reference: 
-*Udemy Course: "Complete C# Unity Game Developer 2D", [Course Link Here](https://www.udemy.com/course/unitycourse/).*
+### Applied Technique
+ ⚙️ [For more detail view here (download to view gif)](https://1drv.ms/p/s!AlB-MBJ24xdztVKlaTOOf2yu_f4W?e=gXh4e2)
+#### Rule Tile
+![tile](./Resource/tile.gif)
+#### Movement
+![tile](./Resource/movement.gif)
+#### Cinemachine
+![tile](./Resource/camera.gif)
+#### Level start
+![tile](./Resource/start.gif)
+#### Level exit
+![tile](./Resource/exit.gif)
+
+## License
+
+Adventure Game is licensed under the [MIT license](LICENSE). You are free to use, modify, and distribute the application as you see fit. Please see the `LICENSE` file for more information.
+
+&copy; 2022 peterndta
